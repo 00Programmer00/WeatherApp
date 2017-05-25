@@ -1,0 +1,114 @@
+body{
+  color: #ffffff;
+}
+
+.scroll-content{
+  background: url("../img/weather-bg.jpg") no-repeat;
+  background-size: cover;
+}
+.weather{
+  position: relative;
+  margin: auto;
+  width:80%;
+  height: 100px;
+  border:1px solid white;
+  /*background: url("../img/weather-bg.jpg") no-repeat;*/
+  /*background-size: cover;*/
+
+}
+
+.img{
+  display: block;
+  height: 100px;
+  vertical-align: middle;
+  float: left;
+
+}
+
+#temperature{
+  position: absolute;
+  font-size: 30px;
+  top: 40px;
+  right: 40%;
+}
+
+#date{
+  position: absolute;
+  right: 0;
+  top:0;
+}
+
+#city{
+
+  position: absolute;
+  top: 0;
+  right: 40%;
+}
+
+.plus{
+  float: left;
+}
+
+#search{
+  float:left;
+  height: 34px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#search:focus{
+  text-align: center;
+}
+
+#other{
+  width: 200px;
+  margin: auto;
+}
+
+.searchBtn{
+  width: 34px;
+  height: 35px;
+  background: url("../img/search.png") no-repeat;
+  background-size: cover;
+  border: none;
+  margin-left: 5px;
+  float: right;
+}
+
+#favorite{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  background: url("../img/star.png") no-repeat;
+  background-size: cover;
+  border: 0;
+}
+
+#delFav{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  background: url("../img/StarActive.png") no-repeat;
+  background-size: cover;
+  border: 0;
+}
+
+.back-button{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  width: 100px;
+  height: 100px;
+  background: url("../img/back.png") no-repeat;
+  background-size: cover;
+}
+
+.city{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}

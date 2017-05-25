@@ -1,0 +1,23 @@
+<ion-view view-title="Favorites">
+  <ion-content>
+      <div ng-repeat="city in favCities">
+        <a href="#/tab/chats/{{city.name}}" class="city">
+          <div ng-click="weather()" class="text-center">
+            {{city.name}}
+          </div>
+        </a>
+
+        <hr>
+
+
+      </div>
+      <div class="text-center">
+        Slide to refresh
+      </div>
+    <ion-refresher on-refresh="doRefresh()"
+                   pulling-text="Pull to refresh..."
+                   refreshing-text="Refreshing!"
+                   refreshing-icon="ion-loading-c">
+    </ion-refresher>
+  </ion-content>
+</ion-view>
